@@ -70,37 +70,36 @@
         </p>
         <form>
             <label for="name">Name</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" required maxsize="20" placeholder="username" autofocus="true" autocomplete="true">
             <br>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required maxsize="10" placeholder="email" autocomplete="true">
             <br>
             <label for="DOB">DOB</label>
-            <input type="date" name="date" id="date">
+            <input type="date" name="date" id="date" required placeholder="DOB" >
             <br>
             <label for="phone no:">Phone no:</label>
-            <input type="tel" name="tel" id="tel">
+            <input type="tel" name="tel" id="tel" required placeholder="phone no" >
             <br>
             <label for="city">City</label>
             <select name="city">
-                <option value="Chennai">chennai</option>
+                <option value="Chennai" selected>chennai</option>
                 <option value="madurai">madurai</option>
                 <option value="mumbai">mumbai</option>
-                <option value="bangalore">bangalore</option>
+                <option value="bangalore" disabled>bangalore</option>
             </select>
             <br>
             <label for="gender">Gender</label>
-            male <input type="radio" name="male" id="male">
-            female <input type="radio" name="female" id="female">
+            male <input type="radio" name="gender" id="male" required>
+            female <input type="radio" name="gender" id="female" required>
             <br>
             <label for="pin code">Pin code</label>
-            <input type="number" name="number" id="number">
+            <input type="number" name="number" id="number" required placeholder="pin code">
             <br>
             <label for="agree to terms">Agree to terms</label>
-            <input type="checkbox" name="terms" id="terms">
+            <input type="checkbox" name="terms" id="terms" required checked>
             <br>
-            <input type="button" value="submit">
-        </form>
+            <input type="button" value="submit" required>
     </footer>
 </body>
 </html>
