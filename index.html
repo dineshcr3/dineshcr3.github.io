@@ -1,27 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Frontend class</title>
-    <meta name="description" content="This all about the frontend"/>
-    <mete name="viewport" content="width-device-width"/>
-    <mete name="author" content="Dinesh"/>
-    <mete name="keywords" content="HTML,CSS,JAVASCRIPT"/>
-    <style>
-        .para{
-            
-        }
-    </style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1  class="para" style="color:cornflowerblue">wellcome to frontend class</h1>
-    <p id=1 title="frontend" contenteditable="true">This session all about hmtl,css,javascript</p>
-    <p id=2 class="para" style="font-size:20px">HTML helps to create the website and it includes tags & element</p>
-    <nav>
-        <a href="https://www.w3schools.com/" accesskey="d">w3schools</a>
-        <a inert href="https://www.flipkart.com/">flipkart</a>
-    </nav>
-    <div hidden>This content is not relavent to the frontend</div>
+    <strong>Odd question</strong>
+    <form>
+        <div>
+            <label for="username" class="form">Name</label>
+            <input type="text" name="username" id="username" autofocus required maxlength="15" minlength="5">
+        </div>
+        <div>
+            <label for="email" class="form">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="dob" class="form">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required>
+        </div>
+        <div>
+            <label for="phone no" class="form">Phone no</label>
+            <input type="tel" name="phone no" id="phone no">
+        </div>
+        <div>
+            <label for="city" class="f1c">City</label>
+            <input type="text" name="city" id="city">
+        </div>
+        <div>
+            <input type="checkbox" name="" id="" checked>
+            <label>I agree all the terms and conditions</label>
+        </div>
+        <div>
+            <button value="submit" type="submit">submit</button>
+        </div>
+    </form>
+    <strong>Even question</strong>
+    <form>
+        <div>
+            <label for="username" class="form">Name</label>
+            <input type="text" name="username" id="username" required>
+        </div>
+        <div>
+            <label for="email" class="form">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="course" class="f1c">Course</label>
+            <select class="f2c">
+                <option value="select course" disabled selected>select course</option>
+                <option value="full stack">Full stack</option>
+                <option value="data science">Data science</option>
+                <option value="data analyst">Data analyst</option>
+                <option value="data engineer">Data engineer</option>
+            </select>
+        </div>
+        <div>
+            <label for="place" class="f1c">Place</label>
+            <select class="f2c">
+                <option value="select place" disabled selected>select Place</option>
+                <option value="Annanagar">Annanagar</option>
+                <option value="Amathur">Amathur</option>
+                <option value="Koyambedu">Koyambedu</option>
+                <option value="Redhills">Redhills</option>
+            </select>
+        </div>
+        <div id="form1">
+            <input type="checkbox" name="" id="checked">
+            <label for="terms and conditions">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <button value="submit" type="submit">submit</button>
+        </div>
+    </form>
 </body>
 </html>
