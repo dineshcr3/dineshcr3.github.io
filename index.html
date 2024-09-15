@@ -1,105 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Frontend</title>
-    <meta name="description" content="This page all about the frontend"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="author" content="Dinesh"/>
-    <meta name="keywords" content="HTML"/>
-    <meta property="og:title" content="Frontend tutorial"/>
-    <meta property="og:url" content="https://www.example.com/"/>
-    <meta property="og:description" content="This page for html"/>
-    <meta property="og:img" content="img_html.jpg"/>
-    <style>
-        .para{font-size:20px
-        }
-        .p1{
-            color:goldenrod
-        }
-    </style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1 class="para" title="FRONTEND">Wellcome to frontend class</h1>
-        <strong>
-            <span>
-                <nav>
-                    <a href="https://www.w3schools.com/" accesskey="d">Home</a>
-                    <a href="https://www.w3schools.com/html/default.asp" accesskey="f">About</a>
-                    <a href="https://www.w3schools.com/html/html_forms.asp" accesskey="s">Contact</a>
-                </nav>
-            </span>
-        </strong>
-    </header>
-    <main>
-        <p id="1" style="color:crimson">
-            This web page all about the introduction of an html.
-        </p>
-        <p id="2" class="p1">
-            HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements.
-        </p>
-    </main>
-    <aside>
-        <p id="3" class="p1">
-            It's used to create structured documents and tell web browsers how to display a page's images and words. HTML is made up of a series of elements, or markup codes, that are inserted into a file and appear between "<" and ">" characters. These elements label content, such as paragraphs, headings, and links, and tell the browser how to display it. For example, some elements can create forms, input fields, buttons, and dropdown lists.
-        </p>
-    </aside>
-    <article>
-        <p id="4" class="p1" contenteditable="true"  spellcheck="true">
-            You can write HTML code using a text editor like Notepad or TextEdit, and then save the file with an .html extension. You can open the file in a web browser to see the results. HTML is often used with other technologies, such as Cascading Style Sheets (CSS) and scripting languages like JavaScript. You can also add comments to your code that won't be visible to the browser, but can help you organize your code or hide large sections of it.
-        </p>
-    </article>
-    <section>
-        <h2 class="para" title="HTML">Elements and tags in HTML</h2>
-        <p id="5">
-            HTML Tags are building blocks of HTML Page. HTML Elements are components that are used in HTML Page. HTML Tags usually exist in pairs consisting of a starting and an ending tag. However, some tags do not have a closing tag. HTML Elements contain a starting tag, content, and an ending tag.
-        </p>
-        <img src="img_html.jpg" alt="this is html image" width="5%" height="0.5%">
-    </section>
-    <i>
-        <p dir="rtl" draggable="true">drag to left</p>
-        <p hidden>This content is hidden</p>
-    </i>
-    <footer>
-        <p>
-            <a href="dinesh@example.com">@example.com</a>
-            <br>
-            <a href="copyright">copyright</a>
-        </p>
-        <form>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" required maxsize="20" placeholder="username" autofocus="true" autocomplete="true">
-            <br>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required maxsize="10" placeholder="email" autocomplete="true">
-            <br>
-            <label for="DOB">DOB</label>
-            <input type="date" name="date" id="date" required placeholder="DOB" >
-            <br>
-            <label for="phone no:">Phone no:</label>
-            <input type="tel" name="tel" id="tel" required placeholder="phone no" >
-            <br>
-            <label for="city">City</label>
-            <select name="city">
-                <option value="Chennai" selected>chennai</option>
-                <option value="madurai">madurai</option>
-                <option value="mumbai">mumbai</option>
-                <option value="bangalore" disabled>bangalore</option>
+    <strong>Odd question</strong>
+    <form>
+        <div>
+            <label for="username" class="form">Name</label>
+            <input type="text" name="username" id="username" autofocus required maxlength="15" minlength="5">
+        </div>
+        <div>
+            <label for="email" class="form">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="dob" class="form">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required>
+        </div>
+        <div>
+            <label for="phone no" class="form">Phone no</label>
+            <input type="tel" name="phone no" id="phone no">
+        </div>
+        <div>
+            <label for="city" class="f1c">City</label>
+            <input type="text" name="city" id="city">
+        </div>
+        <div>
+            <input type="checkbox" name="" id="" checked>
+            <label>I agree all the terms and conditions</label>
+        </div>
+        <div>
+            <button value="submit" type="submit">submit</button>
+        </div>
+    </form>
+    <strong>Even question</strong>
+    <form>
+        <div>
+            <label for="username" class="form">Name</label>
+            <input type="text" name="username" id="username" required>
+        </div>
+        <div>
+            <label for="email" class="form">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="course" class="f1c">Course</label>
+            <select class="f2c">
+                <option value="select course" disabled selected>select course</option>
+                <option value="full stack">Full stack</option>
+                <option value="data science">Data science</option>
+                <option value="data analyst">Data analyst</option>
+                <option value="data engineer">Data engineer</option>
             </select>
-            <br>
-            <label for="gender">Gender</label>
-            male <input type="radio" name="gender" id="male" required>
-            female <input type="radio" name="gender" id="female" required>
-            <br>
-            <label for="pin code">Pin code</label>
-            <input type="number" name="number" id="number" required placeholder="pin code">
-            <br>
-            <label for="agree to terms">Agree to terms</label>
-            <input type="checkbox" name="terms" id="terms" required checked>
-            <br>
-            <input type="button" value="submit" required>
-    </footer>
+        </div>
+        <div>
+            <label for="place" class="f1c">Place</label>
+            <select class="f2c">
+                <option value="select place" disabled selected>select Place</option>
+                <option value="Annanagar">Annanagar</option>
+                <option value="Amathur">Amathur</option>
+                <option value="Koyambedu">Koyambedu</option>
+                <option value="Redhills">Redhills</option>
+            </select>
+        </div>
+        <div id="form1">
+            <input type="checkbox" name="" id="checked">
+            <label for="terms and conditions">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <button value="submit" type="submit">submit</button>
+        </div>
+    </form>
 </body>
 </html>
