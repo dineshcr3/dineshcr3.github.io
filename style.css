@@ -1,0 +1,56 @@
+form {
+    margin: 20px;
+    font-size: larger;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+strong {
+    font-size: x-large;
+}
+
+.form::after {
+    content: "*";
+    color: red;
+}
+
+input {
+    border-radius: 7px;
+}
+
+input:focus {
+    border: 5px solid blue;
+}
+
+.f3c:focus {
+    border: 1px solid;
+}
+
+.form:hover {
+    color: limegreen;
+    text-decoration: underline;
+}
+
+.f1c:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+option:nth-child(odd) {
+    background-color: darkcyan;
+}
+
+option:nth-child(even) {
+    background-color: lightcyan;
+}
+
+.f2c {
+    box-shadow: 7px 7px 15px gray;
+}
+
+#form1 input[type="checkbox"]:checked+label{
+    color: red;
+}
